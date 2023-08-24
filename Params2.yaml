@@ -1,0 +1,25 @@
+imageType:  
+  Original: {}
+  Square: {}
+  SquareRoot: {}
+  Logarithm: {}
+  Exponential: {}
+  Wavelet: {}
+  LoG: {}
+  Gradient: {}
+
+
+
+featureClass:  
+  shape:
+  firstorder: [] 
+  glcm:  
+  glrlm: 
+  glszm:
+  gldm: 
+  ngtdm:
+  
+setting:
+  geometryTolerance: 1e-2
+
+
