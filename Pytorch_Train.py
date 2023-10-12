@@ -229,9 +229,6 @@ if __name__ == '__main__':
     ttt = 0
     SaveAuc = 60
     seed = 35331
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    np.random.seed(seed)
 ################################################################################
     transform = transforms.Compose([
         transforms.Resize([120,120]),
